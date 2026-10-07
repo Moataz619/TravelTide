@@ -1,0 +1,22 @@
+# ==============================================================
+#  TravelTide – .gitignore
+# ==============================================================
+
+# --- Datendateien -------------------------------------------------
+# Alle CSV-Dateien werden NICHT versioniert (Roh-, bereinigte,
+# skalierte und Cluster-Daten). Die Ordnerstruktur bleibt über
+# .gitkeep-Dateien in data/ erhalten.
+*.csv
+
+# --- Notebook- / Python-Artefakte ---------------------------------
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# --- Virtuelle Umgebungen -----------------------------------------
+.venv/
+venv/
+env/
+
+# --- Zugangsdaten / Secrets ---------------------------------------
+.env
