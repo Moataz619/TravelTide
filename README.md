@@ -54,6 +54,8 @@ TravelTide/
 │   ├── 04_group_build.ipynb
 │   └── 05_clustering.ipynb
 ├── report/                     # 21 exportierte Diagramme & Dashboards
+|    └── final-report/                   # Finaler PDF-Bericht
+|           └── TravelTide_Final_Report.pdf
 └── README.md
 ```
 
